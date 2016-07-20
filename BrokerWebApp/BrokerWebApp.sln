@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerWebApp", "BrokerWebApp\BrokerWebApp.csproj", "{066B9F23-F21E-4520-99A3-AE2745DE8B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{BFC78231-5FC3-4477-9B9D-C92FDC7B0A08}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{DEAA56EF-DC6D-4C8A-B276-59814F37553C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\BrokerWebApp-WAWS-dev.json = PublishScripts\Configurations\BrokerWebApp-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066B9F23-F21E-4520-99A3-AE2745DE8B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066B9F23-F21E-4520-99A3-AE2745DE8B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066B9F23-F21E-4520-99A3-AE2745DE8B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066B9F23-F21E-4520-99A3-AE2745DE8B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEAA56EF-DC6D-4C8A-B276-59814F37553C} = {BFC78231-5FC3-4477-9B9D-C92FDC7B0A08}
+	EndGlobalSection
+EndGlobal
