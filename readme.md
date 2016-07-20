@@ -1,3 +1,4 @@
+```
                                 .::.
                               .;:**'            
                               `                  
@@ -11,11 +12,5 @@ QMMMMMb  "MMX       MMMMMMP !MX' :M~   MMM MMM  .oo. XMMM 'MMM
       MMMX   "MMMM"  MM       ~%:           !Mh.""" dMI IMMP
       'MMM.                                             IMX
        ~M!M                                             IMP
-	   
-	   
-	   
----------------------------------------------------------------
-
-   C# WebAPI Event Broker
-   
- ---------------------------------------------------------------
+```	   
+#C# WebAPI Event Broker#
